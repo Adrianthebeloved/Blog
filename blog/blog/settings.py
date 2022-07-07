@@ -91,7 +91,7 @@ if environment == "Development":
         }
     }
 elif environment == "Staging":
-    DATABASES = ()
+    DATABASES = {}
     DATABASES['default'] = dj_database_url.config()
 
 
